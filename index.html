@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.hexagon {
+  fill: none;
+  stroke: #eee;
+  stroke-width: .5px;
+}
+
+.ant {
+  stroke: #333;
+  stroke-width: 3px;
+}
+
+.tile.red-home  { fill: #933; }
+.tile.blue-home { fill: #339; }
+.tile.grass     { fill: #0f0; }
+.tile.wall      { fill: #ccc; }
+.tile.food      { fill: #ff0; }
+
+.ant.blue { fill: #00f; }
+.ant.red  { fill: #f00; }
+
+/* If the ant is carrying food `true` give it a yellow border */
+.ant.has-food { stroke: #ff0 !important; }
+
+</style>
+<body>
+<script src="d3.v3.js"></script>
+<script src="ant-wars.js"></script>
+</body>
+</html>
